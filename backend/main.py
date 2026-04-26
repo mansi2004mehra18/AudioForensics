@@ -1,7 +1,10 @@
 from fastapi import FastAPI
+from websocket import router
 
 app = FastAPI()
 
+app.include_router(router)
+
 @app.get("/")
-def read_root():
-    return {"status": "Audio Forensics Backend Running"}
+def home():
+    return {"message": "SpectraShield Backend Running"}
