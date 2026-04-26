@@ -114,6 +114,3 @@ SafeVoice AI detects what human ears cannot.
 
 ---
 
-## 👨‍💻 Author
-
-Built as part of a hackathon project on AI security and real-time systems.
